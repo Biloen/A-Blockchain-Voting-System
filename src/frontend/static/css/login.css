@@ -1,0 +1,216 @@
+.grid-container{
+    display: grid;
+    grid-template-rows: min-content;
+    align-items: center;
+    z-index: 100;
+}
+
+.grid-logon-signup{
+    display: grid;
+    margin: 0 auto;
+    border: 1px solid var(--main-border-color);
+    width: 80%;
+    grid-template-columns: 50% 50%;	
+    margin-top: 2em;
+    border-radius: 35px;
+    box-shadow: 0px 5px 15px 1px var(--main-shadow-color);
+}
+
+.grid-inputfield{
+    display: grid;
+    grid-template-rows: min-content;
+    grid-row-gap: 1em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.login-button{
+    margin-right: -15px;
+}
+
+.signup-button{
+   margin-left: -15px;
+}
+
+.login-button, .signup-button{
+    border-radius: 35px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 15px;
+    text-align: center;
+    outline: none;
+}
+
+.button {
+    width: 60%;
+}
+
+.show-password-button-login, .show-password-button-signup {
+    height: 1em;
+    width: 1em;
+    
+    outline: none;
+}
+
+.show-password-button-login {
+    float: right;
+    margin-left: -30px;
+    margin-top: -15px;
+    position: relative;
+    z-index: 2;
+}
+
+.show-password-button-signup {
+    float: right;
+    margin-right: 66px;
+    margin-top: -33px;
+    position: relative;
+    z-index: 2;
+}
+
+.password-text {
+    outline: none;
+    border: none;
+}
+
+.checkboxes input {
+    width: .75em;
+    height: .75em;
+}
+
+/*This ".checkboxes" is to adjust "show password []"*/
+.checkboxes {
+    font-size: .75em;
+    margin-left: 3.70rem;
+    margin-top: -.75rem;
+}
+
+.grid-languages{
+    display: grid;
+    grid-template-columns: max-content max-content max-content;	
+    margin: 0 auto;
+    padding-bottom: 1em;
+    grid-column-gap: 1em;
+}
+
+.languagebubble{
+    border-radius: 50%;
+    width: 4em;
+}
+
+.active {
+    background-color: var(--theme-color-red);
+    color: var(--theme-background-color);
+    position: relative;
+    z-index: 10;
+}
+
+.disable {
+    background-color: var(--theme-background-color);
+    color: var(--theme-color-red);
+    position: relative;
+    z-index: 5;
+}
+
+.input-category-header{
+    font-size: 1em;
+    color: var(--input-category-header);
+    margin-top: 0.5rem;
+    margin-bottom: -.75rem;
+    text-align: center;
+}
+
+.input-category span{
+    color: var(--input-header-color);
+    margin-left: 20%;
+    font-size: 1em;
+}
+
+.input-category {
+    display: grid;
+    grid-template-rows: min-content;
+    grid-row-gap: 1em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.input {
+    width: 60%;
+}
+
+.change-language {
+    color: var(--input-text-color);
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.break {
+    margin-bottom: .5em;
+}
+
+/*The css under here is for the registered page*/
+
+.registered-header-1, .registered-header-2, .registered-header-3 {
+    text-align: center;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.registered-header-1 {
+    color: var(--input-text-color);
+    margin-left: 4.25em;
+    margin-right: 4.25em;
+}
+
+.registered-header-2 {
+    color: var(--main-text-color);
+    margin-left: 4em;
+    margin-right: 4em;
+    font-size: 1.2em;
+}
+
+.registered-header-3 {
+    color: var(--input-text-color);
+    margin-left: 4.25em;
+    margin-right: 4.25em;
+}
+
+.back-to-login-button {
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+    color: var(--theme-background-color);
+    background-color: var(--theme-color-red);
+    border-radius: 25px;
+    text-align: center;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    box-shadow: 0px 5px 15px 1px var(--main-shadow-color);
+    width: 60%;
+}
+
+/* This css is for the logo */
+
+.div-logo {
+    padding-right: 1.5rem;
+    text-align-last: center;
+    margin-top: 8.6rem;
+    margin-bottom: -12rem;
+}
+
+.logo {
+    width: 10em;
+    height: auto;
+}
+
+.error {
+    text-align: center;
+    background-color: var(--theme-color-red);
+    color: var(--theme-background-color);
+    border-radius: 25px;
+    width: 90%;
+    padding: 0.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: 0 auto;
+    margin-top: 1em;
+}

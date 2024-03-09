@@ -1,0 +1,64 @@
+<div class ="grid-logon-signup">
+    <!-- Login knap -->
+    <div class="login-button disable" id="login" onclick="login_singup_change(event)">
+        Log in
+    </div>
+    <!-- Signup knap-->
+    <div class="signup-button active" id="signup" onclick="login_singup_change(event)">
+        Sign up
+    </div>
+</div>
+
+<div class="grid-inputfield" id="form">
+    <div class="input-category-header"> Register to vote</div>
+
+    <div class="input-category">
+        <span>Name</span>
+        <input type="text"     class="input" placeholder="First name">
+        <input type="text"     class="input" placeholder="Last name">
+    </div>
+
+    <div class="input-category">
+        <span>Current Address</span>
+        <input type="text"     class="input" placeholder="Address line 1">
+        <input type="text"     class="input" placeholder="Address line 2">
+    </div>
+
+    <div class="input-category">
+        <span>Date of Birth</span>
+        <input type="date"     class="input" value="2021-01-01" max="2020-12-12">
+    </div>
+
+    <div class="input-category">
+        <span>Verification</span>
+        <input type="text"     class ="input" placeholder="Social security number">
+        <input type="text"     class ="input" placeholder="Passport number">
+        <input type="text"     class ="input" placeholder="Drivers license number">
+    </div>
+
+    <div class="input-category">
+        <span>Account Info</span>
+        <input type="email"    class="input" placeholder="E-mail">
+        <input type="password" class="input" placeholder="Password"         id="show-password">
+        <input type="password" class="input" placeholder="Confirm password" id="show-repeated-password">
+        <div>
+            <img id="eye" src="./media/eye.svg" class= "show-password-button-signup" alt="Click on me to see your password" onclick="show_password(event)">
+        </div>
+    </div>
+
+    <div class="button" id="submit" onclick="signup(event)">
+        Sign up
+    </div>
+</div>
+
+<div class="change-language">
+    <b><strong>or</strong></b>
+    <div class="break"></div>
+    <div>Change language</div>
+</div>
+
+<div class="grid-languages">
+    <img src="./media/P2_flag_dk.svg" class= "languagebubble" alt="dk">
+    <div style="font-size: 3em;color: lightgray; text-align: center;"> | </div>
+    <img src="./media/P2_flag_en.svg" class= "languagebubble" alt="dk">
+</div>

@@ -1,0 +1,31 @@
+h1 {
+    padding-top: 0.5em;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+h3 {
+    text-align: center;
+}
+
+.chart {
+    margin: auto 0;
+    padding: 1em;
+}
+
+.last_modified {
+    text-align: center;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.button {
+    width: fit-content;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.container {
+    margin-bottom: 2em;
+}

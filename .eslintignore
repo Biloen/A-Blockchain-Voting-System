@@ -1,0 +1,4 @@
+/node_modules
+/src/frontend
+/test/
+/src/backend/helpers/sha256.js

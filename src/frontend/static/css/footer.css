@@ -1,0 +1,18 @@
+footer {
+    width: 100%;
+    color: white;
+    font-weight: 500;
+    padding-top: 1em;
+    background: linear-gradient(to right,#630618,var(--input-header-color));
+    text-align: center;
+}
+.msg {
+    display:grid;
+    grid-template-columns: max-content max-content;
+    grid-column-gap: 0.5em;
+    margin: 0 auto;
+    width: fit-content;
+}
+.msg p a {
+    color: white;
+}

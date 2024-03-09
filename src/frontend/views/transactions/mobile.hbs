@@ -1,0 +1,21 @@
+<script src="./js/transactions.js"></script>
+<link rel="stylesheet" href="./css/transactions.css" type="text/css">
+
+<script>
+    const block_hash = "{{Hash}}";
+    const API = "{{API}}";
+</script>
+<div class="container">
+    <table class="transactions_table" id="transactions">
+        <tr>
+            <th>Hash</th>
+            <th>Timestamp</th>
+            <th>Vote</th>
+            <th>Signature</th>
+        </tr>
+    </table>
+    {{#if Back}}
+        <div class="button" id="back">Back</div>
+        <br/>
+    {{/if}}
+</div>

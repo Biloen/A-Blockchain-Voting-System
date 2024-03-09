@@ -1,0 +1,176 @@
+[
+    {
+        "Name": "Socialdemokratiet",
+        "Char": "A",
+        "Color": "#B22724",
+        "Candidates": [
+            "Mette Frederiksen",
+            "Ane Halsboe-Jørgensen",
+            "Bjarne Laustsen",
+            "Flemming Møller Mortensen",
+            "Orla hav",
+            "Per Husted",
+            "Rasmus Prehn",
+            "Simon Kollerup",
+            "Søren Valgreen Knudsen"
+        ]
+    },{
+        "Name": "Radikale Venstre",
+        "Char": "B",
+        "Color": "#713283",
+        "Candidates": [
+            "Amalie Mørkøre Højsholt",
+            "Casper Hedegaard",
+            "Daniel Nyboe Andersen",
+            "Marianne Jelved",
+            "Marianna Mulle Jensen",
+            "Niels Arbøl",
+            "Gitte Lopdrup",
+            "Rukke-Marie Jørgensen",
+            "Helle Sommer Kjærgaard"
+        ]
+    },{
+        "Name": "Det Konservative Folkeparti",
+        "Char": "C",
+        "Color": "#9FB931",
+        "Candidates": [
+            "Henrik Dalglaard",
+            "Jens Kindberg",
+            "Morten Thiessen",
+            "Per Larsen",
+            "Per Møller",
+            "Torben Overgaard",
+            "Jens Martin Fjordbak",
+            "Jens-Henrik Kirk",
+            "Mia Tang",
+            "Karsten Skov Petersen"
+        ]
+    },{
+        "Name": "Nye Borgerlige",
+        "Char": "D",
+        "Color": "#005262",
+        "Candidates": [
+            "Poul Højlund",
+            "Frode Larsen",
+            "John Bjerg",
+            "Niels M. Christensen"
+        ]
+    },{
+        "Name": "Partiet Klaus Riskær Pedersen",
+        "Char": "E",
+        "Color": "#748CB2",
+        "Candidates": [
+            "Rune Frøsig Osmundsen",
+            "Maria Terese Fog Bartholdy"
+        ]
+    },{
+        "Name": "Socialistisk Folkeparti",
+        "Char": "F",
+        "Color": "#DD067B",
+        "Candidates": [
+            "Allan Norré Pedersen",
+            "Henning Jørgensen",
+            "Jacob Klivager",
+            "Janni Platz Sthyr",
+            "Karl H. Bornhøft",
+            "Lene Linnemann",
+            "Lisbeth Bech Poulsen",
+            "Theresa Berg Andersen",
+            "Thorkil Olesen"
+        ]
+    },{
+        "Name": "Liberal Alliance",
+        "Char": "I",
+        "Color": "#3BB8BE",
+        "Candidates": [
+            "Christina Egelund",
+            "Bo Ritterbusch",
+            "Martin K. Madsen",
+            "Jacob Høfler",
+            "Claus Hermansen"
+        ]
+    },{
+        "Name": "Kristendemokraterne",
+        "Char": "K",
+        "Color": "#848276",
+        "Candidates": [
+            "Britta Eckhardt",
+            "David Jakobsen",
+            "Piratheep Krishnapalan",
+            "Anne-Marie Jørgensen",
+            "Inger Ottesen",
+            "Robert Thomsen"
+        ]
+    },{
+        "Name": "Dansk Folkeparti",
+        "Char": "O",
+        "Color": "#F2CC43",
+        "Candidates": [
+            "Bent Bøgsted",
+            "Morten Marinus",
+            "Ib Poulsen",
+            "Lise Bech",
+            "Erik Høgh-Sørensen",
+            "Tommy Degn",
+            "Hans Henrik Sørensen",
+            "Kim Edberg Andersen",
+            "Peter Sørensen"
+        ]
+    },{
+        "Name": "Stram Kurs",
+        "Char": "P",
+        "Color": "#9C8D4A",
+        "Candidates": [
+            "Uwe Max Jensen",
+            "Danni Pedersen"
+        ]
+    },{
+        "Name": "Venstre",
+        "Char": "V",
+        "Color": "#006897",
+        "Candidates": [
+            "Preben Bang Henriksen",
+            "Maja Torp",
+            "Henrik Jørgensen",
+            "Henrik Buchhave",
+            "Marie Bjerre",
+            "Karsten Lauritzen",
+            "Anne Honoré Østergaard",
+            "Torsten Schack Pedersen",
+            "Thomas Thomsen"
+        ]
+    },{
+        "Name": "Enhedslisten",
+        "Char": "Ø",
+        "Color": "#F18016",
+        "Candidates": [
+            "Peder Hvelplund",
+            "Sinem Demir",
+            "Susanne Flydtkjær",
+            "Berit Raldin",
+            "Anna Aaen",
+            "Finn Grøn Nielsen",
+            "Torsten Ringgard",
+            "Poul-Erik Andersen"
+        ]
+    },{
+        "Name": "Alternativet",
+        "Char": "Å",
+        "Color": "#1F9034",
+        "Candidates": [
+            "Susanne Zimmer",
+            "Simon Leed Krøs",
+            "Christian Gade Bjerrum",
+            "Anne-Louis L. Bøttger-Rasmussen",
+            "Camilla Bandgaard",
+            "Ulla Gram Larsen",
+            "Gustav Sieg Sørensen",
+            "Lars Rosenkvist"
+        ]
+    },{
+        "Name": "Blankt",
+        "Char": " ",
+        "Color": "#808080",
+        "Candidates":[]
+    }
+]

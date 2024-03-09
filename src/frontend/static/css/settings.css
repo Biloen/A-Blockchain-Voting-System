@@ -1,0 +1,112 @@
+html, body {
+    width: 100%;
+    margin: 0; 
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+    padding: 40px 0px 20px 0px;
+}
+
+/*Func*/
+
+.multi-levl, .item ul, .nav input[type="checkbox"] {
+    display: none;
+}
+
+.multi-levl, .item input:checked ~ ul{
+    display: block;
+}
+
+/*
+ * This is for the sub folders inside: 
+ * Account Settings, Appearance, Privacy & Setting, About, Logout 
+*/
+
+.item {
+    font-size: 1em;
+    color: var(--main-text-color);
+    display: block;
+    letter-spacing: 0.1em;
+    margin: 5px 50px 5px 60px;
+    padding: 10px 0px 10px 0px;
+    border-bottom: 1px solid var(--main-border-color);
+}
+
+/*Subsub folder*/
+
+.sub-item {
+    font-size: .85em;
+    color: var(--main-text-color);
+    display: block;
+    letter-spacing: 0.1em;
+    margin: 5px 0px 5px -5px;
+    padding: 10px 20px 10px 0px;
+    border-bottom: 1px solid var(--main-border-color);
+}
+
+/*Sub folder*/
+
+.sub-item ul li {
+    font-size: .7em;
+    color: var(--main-text-color);
+    display: block;
+    margin: 5px 0px 5px 10px;
+    padding: 10px 0px 10px 0px;
+}
+
+/*This for adjusting the text in the subsub folder*/
+
+.sub-item ul li a {
+    font-size: 1em;
+    color: var(--main-text-color);
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid var(--main-border-color);
+    margin: 0px -20px 0px -30px;
+}
+
+/*This is for the input boxes in the subsub folder*/
+
+.item ul li ul input {
+    color: var(--main-text-color);
+    background: none;
+    border: none;
+    margin: auto;
+    margin-left: -2em;
+    outline: none;
+    width: 12.25em;
+    border-bottom: 1px solid var(--main-border-color);
+}
+
+/*icons*/
+
+.icon {
+    position: relative;
+    width: 5vw;
+    height: auto;
+    margin-bottom: -2px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.icon2 {
+    position: relative;
+    float: right;
+    z-index: 2;
+    width: 5vw;
+    height: auto;
+    margin-top: -33px;
+    margin-right: -10px;
+}

@@ -1,0 +1,47 @@
+<div class="header" id="headerid">
+    <div class="nav-header">
+        <input type="checkbox" id="menu"/>
+        <label for="menu" id="nav-icon-header">&#9776;</label>
+        <a href="/"><img src="./media/Logo.svg" class="logoimg-header" alt="E-valg logo"></a>
+
+        <div class="multi-level-header">
+            <div class="item-header">
+                <input type="checkbox" id="AA"/>
+                <a for="AA" href="./">Get to know the candidates</a>
+            </div>
+            {{#if logged_in}}
+                <div class="item-header">
+                    <input type="checkbox" id="BB"/>
+                    <a for="BB" href="./vote">Vote</a>
+                </div>
+                <div class="item-header">
+                    <input type="checkbox" id="CC"/>
+                    <a for="CC" href="./accountsettings">Account Settings</a>
+                </div>
+                <div class="item-header">
+                    <input type="checkbox" id="FF"/>
+                    <a for="FF" href="./explorer">Explorer</a>
+                </div>
+            {{/if}}
+            <div class="item-header">
+                <input type="checkbox" id="DD"/>
+                <a for="DD" href="./results">Results</a>
+            </div>
+            <div class="item-header">
+                <input type="checkbox" id="EE"/>
+                <a for="EE" href="./contact">Contact</a>
+            </div>
+            {{#if logged_in}}
+                <div class="item-header">
+                    <input type="checkbox" id="EE"/>
+                    <a for="EE" href="./logout">Log Out</a>
+                </div>
+                {{else}}
+                <div class="item-header">
+                    <input type="checkbox" id="EE"/>
+                    <a for="EE" href="./login">Login</a>
+                </div>
+            {{/if}}
+        </div>
+    </div>
+</div>

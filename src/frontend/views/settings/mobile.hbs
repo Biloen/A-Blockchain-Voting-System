@@ -1,0 +1,179 @@
+<script src="./js/settings.js"></script>
+
+<link rel="stylesheet" href="./css/settings.css">
+
+<div class="container">
+	<div class="grid-container" id="grid-container">
+        <p class="title">Settings</p>
+
+        <div class="nav">
+            <div class="multi-levl">
+                <!--This is for the Account folder-->
+                <div class="item">
+                    <input type="checkbox" id="A">
+                    <label for="A"><img src="./media/bell.svg" class= "icon" alt="Account Settings">Account Settings</label>
+
+                    <ul>
+                        <!--Change Name-->
+                        <li><div class="sub-item">
+                                <input type="checkbox" id="A-A"/>
+                                <label for="A-A">Change Name</label>
+                                <ul>
+                                    <li><input type="text" placeholder="First Name" class="input" id="first-name"></li>
+                                    <li><input type="text" placeholder="Last Name" class="input" id="last-name"></li>
+                                </ul>
+                        </div></li>
+                        <!--Change Password-->
+                        <li><div class="sub-item">
+                                <input type="checkbox" id="A-B"/>
+                                <label for="A-B">Change Password</label>
+                                <ul>
+                                    <li><input type="password" placeholder="Change Password" id="show-password"></li>
+                                    <li><input type="password" placeholder="Confirm Password" id="show-repeated-password"></li>
+                                    <div>
+                                        <img src="./media/eye.svg" class= "icon2" alt="Eye" onclick="show_password(event)">
+                                    </div>
+                                </ul>
+                        </div></li>
+                        <!--Change Email-->
+                        <li><div class="sub-item">
+                                <input type="checkbox" id="A-C"/>
+                                <label for="A-C">Change Email</label>
+                                <ul>
+                                    <li><input type="text" placeholder="Old Email" id="old-email"></li>
+                                    <li><input type="text" placeholder="New Email" id="new-email"></li>
+                                </ul>
+                        </div></li>
+                        </li>
+                    </ul>
+                </div>
+                <!--This is for the Appearance folder-->
+                <div class="item">
+                    <input type="checkbox" id="B">
+                    <label for="B"><img src="./media/eye.svg" class= "icon" alt="Eye">Appearance</label>
+
+                    <ul>
+                        <!--Sub folder 1-->
+                        <li><div class="sub-item">
+                                <input type="checkbox" id="B-A"/>
+                                <label for="B-A">Sub folder</label>
+                                <ul>
+                                    <li><input type="text" placeholder="Some random 1"></li>
+                                    <li><a>Indsæt someting here 1</a></li>
+                                </ul>
+                        </div></li>
+                        <!--Sub folder 2-->
+                        <li><div class="sub-item">
+                                <input type="checkbox" id="B-B"/>
+                                <label for="B-B">Sub folder</label>
+                                <ul>
+                                    <li><input type="text" placeholder="Some random 2"></li>
+                                    <li><a>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                                        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                                        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                                        optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+                                        obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+                                        nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+                                        tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
+                                        quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos 
+                                        sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
+                                        recusandae alias error harum maxime adipisci amet laborum. Perspiciatis 
+                                        minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit 
+                                        quibusdam sed amet tempora. Sit laborum ab, eius fugit doloribus tenetur 
+                                        fugiat, temporibus enim commodi iusto libero magni deleniti quod quam 
+                                        consequuntur! Commodi minima excepturi repudiandae velit hic maxime
+                                        doloremque. Quaerat provident commodi consectetur veniam similique ad 
+                                        earum omnis ipsum saepe, voluptas, hic voluptates pariatur est explicabo 
+                                        fugiat, dolorum eligendi quam cupiditate excepturi mollitia maiores labore 
+                                        suscipit quas? Nulla, placeat. Voluptatem quaerat non architecto ab laudantium
+                                        modi minima sunt esse temporibus sint culpa, recusandae aliquam numquam 
+                                        totam ratione voluptas quod exercitationem fuga. Possimus quis earum veniam 
+                                        quasi aliquam eligendi, placeat qui corporis!
+                                    </a></li>
+                                </ul>
+                        </div></li>
+                    </ul>
+                </div>
+                <!--This is for the Privacy & Security folder-->
+                <div class="item">
+                    <input type="checkbox" id="C">
+                    <label for="C"><img src="./media/padlock.svg" class= "icon" alt="padlock">Privacy & Security</label>
+
+                    <ul>
+                        <!--Sub folder 1-->
+                        <li><div class="sub-item">
+                                <input type="checkbox" id="C-A"/>
+                                <label for="C-A">Sub folder</label>
+                                <ul>
+                                    <li><input type="text" placeholder="Some random 1"></li>
+                                    <li><a>Indsæt someting here 1</a></li>
+                                </ul>
+                        </div></li>
+                        <!--Sub folder 2-->
+                        <li><div class="sub-item">
+                                <input type="checkbox" id="C-B"/>
+                                <label for="C-B">Sub folder</label>
+                                <ul>
+                                    <li><input type="text" placeholder="Some random 2"></li>
+                                    <li><a>Indsæt someting here 2</a></li>
+                                </ul>
+                        </div></li>
+                    </ul>
+                </div>
+                <!--This is for the About-->
+                <div class="item">
+                    <input type="checkbox" id="D">
+                    <label for="D"><img src="./media/about.svg" class= "icon" alt="About">About</label>
+
+                    <ul>
+                        <!--Sub folder 1-->
+                        <li><div class="sub-item">
+                                <input type="checkbox" id="D-A"/>
+                                <label for="D-A">Sub folder</label>
+                                <ul>
+                                    <li><input type="text" placeholder="Some random 1"></li>
+                                    <li><a>Indsæt someting here 1</a></li>
+                                </ul>
+                        </div></li>
+                        <!--Sub folder 2-->
+                        <li><div class="sub-item">
+                                <input type="checkbox" id="D-B"/>
+                                <label for="D-B">Sub folder</label>
+                                <ul>
+                                    <li><input type="text" placeholder="Some random 2"></li>
+                                    <li><a>Indsæt someting here 2</a></li>
+                                </ul>
+                        </div></li>
+                    </ul>
+                </div>
+                <!--This is for the Logout-->
+                <div class="item">
+                    <input type="checkbox" id="E">
+                    <label for="E"><img src="./media/logout.svg" class="icon" alt="Logout">Logout</label>
+
+                    <ul>
+                        <!--Sub folder 1-->
+                        <li><div class="sub-item">
+                                <input type="checkbox" id="E-A"/>
+                                <label for="E-A">Sub folder</label>
+                                <ul>
+                                    <li><input type="text" placeholder="Some random 1"></li>
+                                    <li><a>Indsæt someting here 1</a></li>
+                                </ul>
+                        </div></li>
+                        <!--Sub folder 2-->
+                        <li><div class="sub-item">
+                                <input type="checkbox" id="E-B"/>
+                                <label for="E-B">Sub folder</label>
+                                <ul>
+                                    <li><a>Indsæt someting here 2</a></li>
+                                    <li><a>Indsæt someting here 2</a></li>
+                                </ul>
+                        </div></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

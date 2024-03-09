@@ -1,0 +1,38 @@
+<div class ="grid-logon-signup">
+    <!-- Login knap -->
+        <div class="login-button active" id="login" onclick="login_singup_change(event)">
+            Log in
+        </div>
+    <!-- Signup knap-->
+        <div class="signup-button disable" id="signup" onclick="login_singup_change(event)">
+            Sign up
+        </div>
+</div>
+
+<div class="grid-inputfield" id="form">
+    <input type="text" placeholder="Username" class = "input">
+
+    <div class = "input">
+        <input type="password" class="password-text" placeholder="Password" id="show-password">
+        <div>
+            <img id="eye" src="./media/eye.svg" class= "show-password-button-login" alt="Click on me to see your password" onclick="show_password(event)">
+        </div>
+    </div>
+
+    <div class="button" id="submit" onclick="login(event)">
+        Log in
+    </div>
+    
+</div>
+
+<div class="change-language">
+    <b><strong>or</strong></b>
+    <div class="break"></div>
+    <div>Change language</div>
+</div>
+
+<div class="grid-languages">
+    <img src="./media/P2_flag_dk.svg" class= "languagebubble" alt="dk">
+    <div style="font-size: 3em;color: lightgray; text-align: center;"> | </div>
+    <img src="./media/P2_flag_en.svg" class= "languagebubble" alt="dk">
+</div>

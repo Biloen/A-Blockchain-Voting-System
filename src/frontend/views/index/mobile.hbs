@@ -1,0 +1,57 @@
+<link rel="stylesheet" type="text/css" href="./css/index.css">
+<div class="gridcontainer">
+    <a class="readytovote" href="/vote">
+    Ready to vote
+    </a>
+
+    <div class="issues">
+        <h1 class="header">
+            Have you run into an issue?
+        </h1>
+        <div class="issuetext">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+        
+        <div class="issuelink">See all issues</div>    
+    </div>
+    
+    <div class="events">
+        <h1 class="header">Important upcoming dates</h1>
+        {{#each Event}}
+            <div class="event">
+                <div class="date" >
+                    <div class="month">{{this.Date.Month}}</div>
+                    <div class="day">{{this.Date.Day}}</div>
+                </div>
+                
+                
+                <div style="text-align: center;">
+                    <h2 class="name">{{this.Event}}</h2>
+                    <div class="description">{{this.Description}}</div>
+                </div>
+            </div>
+        {{/each}}
+    </div>
+
+    <div class="getknowcandidates">
+        <h1>Get to know your candidates</h1>
+        {{#each Politician}}
+            <div class="candidate">
+                <div class="header">
+                    <img src="./media/candidates/{{@index}}.jpg" alt="">
+                    <div class="info">
+                        <div class="name">{{this.Name}}</div>
+                        <div class="party">{{this.Party}}</div>
+                    </div>
+                    <div class="dots">
+                        <div class="dot selected"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+                
+                <div class="description">{{this.Description}}</div>
+            </div>
+        {{/each}}
+    </div>
+</div>

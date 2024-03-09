@@ -1,0 +1,23 @@
+<script>
+    const loginform = `{{> loginform}}`;
+    const signupform = `{{> signupform}}`;
+    const registered = `{{> registered}}`;
+</script>
+
+<script src="./js/login-signup.js"></script>
+<script src="./js/sha256.js"></script>
+<script src="./js/elliptic.js"></script>
+<script src="./js/key-gen.js"></script>
+<script src="./js/aes.js"></script>
+
+<link rel="stylesheet" href="./css/login.css" href="./css/styles.css">
+
+<div class="div-logo">
+        <img src="./media/Logo.svg" class= "logo" alt="logo">
+</div>
+
+<div class="container">
+	<div class="grid-container" id="grid-container">
+        {{> loginform}}
+    </div>
+</div>

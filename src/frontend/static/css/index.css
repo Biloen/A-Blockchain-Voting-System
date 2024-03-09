@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+}
+
+.gridcontainer{
+    margin-top: 0%;
+    display: grid;
+    grid-template-rows: min-content;
+    align-items: center;
+    min-height: max-content;
+}
+
+.readytovote{
+    text-decoration: none;
+    width: 70%;
+    margin: 6em auto;
+    padding: 1em;
+    background-color: #C60C30;
+    border-radius: 25px;
+    font-size: 6vw;
+    color: white;
+    text-align: center;
+}
+
+h1{
+    font-weight: normal;
+    font-size: 6vw;
+    margin: 1em auto;
+    text-align: center;
+    
+}
+
+.issuetext{
+    font-weight: normal;
+    font-size: 4vw;
+    margin: 1em auto;
+    width: 70%;
+}
+
+.issuelink{
+    font-weight: normal;
+    font-size: 4vw; 
+    margin: 0 auto;
+    text-align: center;
+    color: #C60C30;
+    text-decoration: underline;
+}
+
+.events{
+    margin-top:1em;
+}
+
+.event{
+    display: grid;
+    grid-template-columns: max-content 1fr;	
+    grid-column-gap: 2em;
+    margin: 0 auto;
+    margin-top: 1em;
+    width: 70%;
+}
+
+.event .date {
+    border: 2px solid black;
+    box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.16);
+    width: 3em; 
+    height: 3em;
+    align-self: middle;
+    margin: auto 0;
+    text-align: center;
+}
+
+.event .date .month {
+    font-size: .9em;
+}
+
+.event .date .day {
+    font-size: 1.75em;
+}
+
+.event .name{
+    font-size: 1em;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+.info {
+    width: 10em;
+}
+.event .description {
+    font-size: .7em;
+    text-align: left;
+}
+
+.getknowcandidates h1, .events .header, .issues .header{
+	font-weight: bold;
+}
+
+.candidate{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+	padding-bottom: 1em;
+	border-bottom: 1px solid black;
+}
+
+.candidate .header{
+    display: grid;
+    grid-template-columns: 30% max-content 1fr;
+    grid-template-rows: max-content;
+    grid-column-gap: 2em;
+    margin-bottom: 1em;
+}
+
+.header .info .name{
+	padding: 1em;
+    padding-left: 0;
+    padding-top: 0;
+}
+
+.header .info .party{
+	font-weight: bold;
+}
+
+.candidate .header img {
+	
+	width: 5em;
+    border-radius: 50%;
+    border: 1px solid black;
+}

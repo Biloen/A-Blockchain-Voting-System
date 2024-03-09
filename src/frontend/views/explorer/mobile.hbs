@@ -1,0 +1,24 @@
+<script>
+    const API = "{{API}}";
+</script>
+<script src="./js/explorer.js"></script>
+<link rel="stylesheet" href="./css/explorer.css" type="text/css">
+<div class="container">
+    <h2>Chain explorer</h2>
+    <div class="search-container">
+        <input type="text" class="search-input" id="search-input" placeholder="Block or Transaction hash">
+        <div class="search button" id="search">Go</div>
+    </div>
+    <table class="explorer_table" id="explorer">
+        <tr>
+            <th>Hash</th>
+            <th>Height</th>
+            <th>Timestamp</th>
+            <th>Nonce</th>
+        </tr>
+    </table>
+    <div class="buttons">
+        <div class="next button" id="next"><</div>
+        <div class="back button" id="back">></div>
+    </div>
+</div>

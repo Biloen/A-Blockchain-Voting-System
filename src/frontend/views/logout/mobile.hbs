@@ -1,0 +1,24 @@
+<script src="./js/logout.js"></script>
+<link rel="stylesheet" href="./css/logout.css">
+<div class="logout-background">
+	<div class="logout-container">
+		<div id="logout">
+			<h2>Are you sure you want to </h2>
+			<h1>Log out</h1>
+			<div class="logout-buttoncontainer">
+				<input type="button" value="Yes" class="logout-button logout-yes" onclick="logout()">
+				<input type="button" value="No" class="logout-button logout-no" onclick="location.href='./'">
+			</div>
+		</div>
+
+		<div class="loggedout" id="loggedout">
+			<h2>You have successfully </h2>
+			<h1>Logged out</h1>
+			<div class="back">
+				<div class="button back-button" id="back" onclick="back(event)">
+					Back to Home
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

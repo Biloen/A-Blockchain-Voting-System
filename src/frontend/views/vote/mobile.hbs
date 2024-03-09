@@ -1,0 +1,47 @@
+<link rel="stylesheet" href="./css/vote.css">
+<script src="./js/sha256.js"></script>
+<script src="./js/vote.js"></script>
+<script src="./js/elliptic.js"></script>
+<script src="./js/aes.js"></script>
+<script src="./js/key-gen.js"></script>
+
+<script>
+    const private_key_enc = "{{Privatekey}}";
+    const API = "{{API}}";
+</script>
+
+<div class="info">
+    <h1>Parliamentary Election 20xx</h1>
+    <h3>Mark the box to the left of your chosen party or candidate</h3>
+    <p>You may mark only one box on the ballot</p>
+</div>
+
+<div id="template" class="ballot">
+    {{#each Party}}
+        <div class="party">
+            <div class="party-header">
+                <label class="checkbox">
+                    <input class="party-size" party="{{this.Char}}" name="vote-item" type="checkbox" />
+                    <span class="party-size"></span><span class="party-size">{{this.Char}}.</span><span class="party-name">{{this.Name}}</span>
+                </label>
+            </div>
+            <div class="candidates" party="{{this.Char}}">
+                {{#each this.Candidates}}
+                    <div class="candidate">
+                        <label class="checkbox">
+                            <input class="candidate-size" name="vote-item" candidate="{{this}}" type="checkbox" />
+                            <span class="candidate-size"></span><span class="candidate-size">{{this}}</span>
+                        </label>
+                    </div>
+                {{/each}}
+            </div>
+        </div>
+    {{/each}}
+</div>
+
+<div class="input">
+    <input type="password" class="password-text" placeholder="Password" id="show-password">
+    <img id="eye" src="./media/eye.svg" class= "show-password-button-login" alt="Click on me to see your password" onclick="show_password(event)">
+</div>
+
+<div class="submit" id="submit">Submit Vote</div>

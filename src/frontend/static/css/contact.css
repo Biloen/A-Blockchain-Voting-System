@@ -1,0 +1,41 @@
+.header-1 {
+    text-align: center;
+    padding: 60px 0 30px 0;
+}
+
+.message-2 {
+    font-size: 1em;
+    text-align: center;
+    margin:20px 40px 20px 40px;
+}
+
+.contact-input{
+    width:80%;
+    height: 10em;
+    margin: 0 auto;
+}
+
+.button{
+    color: var(--theme-background-color);
+    margin: 0 20%;
+    background-color: var(--theme-color-red);
+    border-radius: 25px;
+    text-align: center;
+    padding-top: .75em;
+    padding-bottom: .75em;
+    box-shadow: 0px 5px 15px 1px var(--main-shadow-color);
+}
+
+.messagebox{
+    width: 80%;
+    margin: 0 auto;
+
+}
+.messagebox > div{
+    text-align: center;
+}
+.messagebox > textarea{
+    resize: none;
+    width: 99%;
+    height: 7em;
+}

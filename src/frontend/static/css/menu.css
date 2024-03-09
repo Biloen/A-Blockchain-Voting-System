@@ -1,0 +1,66 @@
+html, body {
+    width: 100%;
+    margin: 0; 
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.multi-level-header, .item-header ul, .nav-header input[type="checkbox"] {
+    display: none;
+}
+
+.multi-level-header, .item-header ul li ul, .nav-header input[type="checkbox"] {
+    display: none;
+}
+
+#menu:checked ~ .multi-level-header, .item-header input:checked ~ ul{
+    display: block;
+}
+
+/* local */
+
+.item-header {
+	display: grid;
+	margin-top: -5px;
+}
+
+.nav-header {
+	width: 100%;
+	overflow: hidden;
+	position: fixed; top: 0;
+	z-index: 1;
+}
+
+#nav-icon-header {
+	font-size: 40px;
+	position: fixed; left:7.5em; top:0.2em;
+}
+
+.logoimg-header{
+    width:30%;
+    background-image: url("../media/headerbaggrund.PNG");
+    padding-right: 25em;
+	overflow: hidden;
+}
+
+.multi-level-header {
+	background-image: url("../media/Danmarksflag.png");
+	background-size: 100vw 100vh;
+	background-repeat: no-repeat;
+	z-index: 10;
+}
+
+.multi-level-header a{
+	background: rgba(255,0,4,0.60);
+	padding: 1em 1em;
+	margin: .5em 0em;
+	color: white;
+	text-decoration: none;
+}

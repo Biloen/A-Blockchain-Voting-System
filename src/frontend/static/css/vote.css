@@ -1,0 +1,196 @@
+:root {
+    --Danger: #C82333;
+    --White: #FFFFFF;
+    --Dark-text: #4B4B4B;
+    --Dark-border: #707070;
+    --Light-Accent: #F0F0F0;
+    --Dark-Accent: #D6D6D6;
+    --Primary: #C60C30;
+}
+
+body, html {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+p {
+    font-size: 12px;
+}
+
+.constituency {
+    float: right;
+    font-size: 11px;
+    margin-right: 1.1em;
+}
+
+.info {
+    margin: 5em auto;
+}
+
+.info h1{
+    color: white;
+    margin: 4.5em 0 1em 0;
+    text-align: center;
+    font-size: 2em;
+
+}
+
+.info h3{
+    margin: 0 1em;
+    color: white;
+}
+
+.info p {
+    margin-left: 1.2em;
+    color: white;
+    margin-bottom: 12em;
+}
+
+.ballot {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: max-content;
+    border-top: 8px solid var(--Dark-border);
+    line-height: 24px;
+}
+
+.party {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: max-content max-content;
+}
+
+.party-header {
+    border-bottom: 1px solid var(--Dark-border);
+}
+
+.party-size {
+    font-size: 25px;
+}
+
+.party-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.candidates {
+    display: grid;
+    grid-template-rows: repeat(99,max-content);
+    border-bottom: 4px solid var(--Dark-border);
+    grid-auto-flow: column;
+}
+
+.candidate {
+    border-bottom: 1px solid var(--Dark-border);
+    font-weight: bold;
+}
+
+.candidate-size {
+    font-size: 15px;
+}
+
+.checkbox input:checked.candidate-size + span::before {
+    margin-left: -2.3em !important;
+}
+
+.checkbox {
+    display: inline-flex;
+    cursor: pointer;
+    position: relative;
+    margin-left: 1em;
+}
+
+.candidate > label{
+    margin: .5em .5em;
+}
+
+.candidate > .checkbox {
+    margin: 1em auto;
+    text-align: left;
+
+    margin-left: 1em;
+}
+
+.candidate-size{
+    text-align: right;
+}
+
+.checkbox > span {
+    color: var(--Dark-text);
+    padding: 0.5em 0.25em;
+    text-align: center;
+}
+
+.checkbox > input {
+    margin: auto 0;
+    height: 25px;
+    width: 25px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    border: 2px solid var(--Dark-text);
+    outline: none;
+    transition-duration: 0.3s;
+    background-color: var(--White);
+    cursor: pointer;
+    
+}
+
+.checkbox > input:checked + span::before {
+    font-size: 0.8em;
+    content: '\2717';
+    text-align: center;
+    color: var(--Dark-text);
+    margin: auto 0;
+    margin-left: -2em;
+}
+
+.checkbox > input:active {
+    border: 3px solid var(--Dark-text);
+}
+
+.submit{
+    width: 50%;
+    margin: 1em auto;
+    padding: .5em;
+    background-color: #C60C30;
+    text-align: center;
+    border-radius: 25px;
+    color: white;
+}
+
+.input {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 60%;
+}
+
+.password-text {
+    outline: none;
+    border: none;
+}
+
+.show-password-button-login {
+    float: right;
+    margin-right: 3px;
+    margin-top: 6px;
+    position: relative;
+    z-index: 2;
+}
+
+.show-password-button-login {
+    height: 1em;
+    width: 1em;
+    
+    outline: none;
+}

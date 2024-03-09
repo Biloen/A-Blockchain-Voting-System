@@ -1,0 +1,41 @@
+<script>
+    const tx_hash = "{{Hash}}";
+    const API = "{{API}}";
+</script>
+
+<script src="./js/transaction.js"></script>
+<link rel="stylesheet" href="./css/transaction.css" type="text/css">
+<div class="container">
+    <h2>Transaction</h2>
+    <table class="tx_table">
+        <tr>
+            <th>Hash</th>
+            <td id="hash">{{Hash}}</td>
+        </tr>
+        <tr>
+            <th>Timestamp</th>
+            <td id="timestamp"></td>
+        </tr>
+        <tr>
+            <th>Vote</th>
+            <td id="vote"></td>
+        </tr>
+        <tr>
+            <th>Signature</th>
+            <td id="signature"></td>
+        </tr>
+        <tr>
+            <th>Block hash</th>
+            <td id="block"></td>
+        </tr>
+        <tr>
+            <th>Confirmed</th>
+            <td id="confirmed"></td>
+        </tr>
+    </table>
+
+    {{#if Back}}
+        <div class="button" id="back">Back</div>
+        <br/>
+    {{/if}}
+</div>

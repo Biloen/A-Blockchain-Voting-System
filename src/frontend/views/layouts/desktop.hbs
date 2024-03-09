@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{Title}} - desktop</title>
+    </head>
+    <body>
+        <!-- \{{> "name"}} adds the html form the file in "/frontend/views/partials/name.hbs" -->
+        {{> header}}
+        
+        <!-- \{{{body}}} finds the file from "res.render('name')" where it then gets the html from "/frontend/views/name.hbs"  -->
+        {{{body}}}
+
+        <!-- \{{> "name"}} adds the html form the file in "/frontend/views/partials/name.hbs" -->
+        {{> footer}}
+    </body>
+</html>

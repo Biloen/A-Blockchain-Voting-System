@@ -1,0 +1,47 @@
+[
+    {
+        "Name": "Mette Frederiksen",
+        "Party": "Socialdemokratiet",
+        "Description": "Socialdemokratiet blev oprettet som et såkaldt arbejderparti med det formål at organisere arbejderklassen på et socialistisk grundlag, der skulle sikre alle danskere demokratiske rettigheder og retfærdige levevilkår."
+    },{
+        "Name": "Kristian Thulesen Dahl",
+        "Party": "Dansk Folkeparti",
+        "Description": "Det var blandt andre Pia Kjærsgaard og Kristian Thulesen Dahl, tidligere medlemmer af Fremskridtspartiet, der stiftede Dansk Folkeparti i 1995. Partiet ønsker at frigøre sig fra liberalisme og socialisme og vil dermed værne om de ting, \"der gør Danmark til et af verdens bedste lande\"."
+    },{
+        "Name": "Jakob-Ellemann-Jensen",
+        "Party": "Venstre",
+        "Description": "Venstres politiske program bygger på liberale værdier og en holdning om, at mennesker bedst trives ved \"frihed under ansvar\". Det er op til den enkelte at tage ansvar for sit liv og for fællesskabet - samtidig med, at partiet understreger, at der skal være balance mellem frihed og fællesskab."
+    },{
+        "Name": "Mai Villadsen",
+        "Party": "Enhedslisten",
+        "Description": "Partiet Enhedslisten var oprindeligt et samarbejde mellem Venstresocialisterne (VS), Danmarks Kommunistiske Parti (DKP) og Socialistisk Arbejderparti (SAP), men kun to år efter, i 1991, blev listen omdannet til et egentligt parti. Enhedslisten har, som det eneste parti i Folketinget, ingen formand - det ledes formelt set kollektivt. Dog er Mail Villadsen politisk ordfører og dermed de facto partileder."
+    },{
+        "Name": "Sofie Carsten",
+        "Party": "Radikale Venstre",
+        "Description": "Radikale Venstre opstod som resultat af en splittelse af partiet Venstre i maj 1905. Partiets første program lød blandt andet på dansk neutralitet, nedsættelse af militærudgifterne samt frihed i undervisning og åndsliv. I dag er særligt demokrati og humanisme i fokus."
+    },{
+        "Name": "Søren Pape Poulsen",
+        "Party": "Det konservative Folkeparti",
+        "Description": "Partiet blev oprettet i 1915 for at varetage en ny middelklasses interesser. Det havde som formål at føre en konservativ politik rettet mod borgere fra alle samfundsgrupper. Det Konservative Folkeparti tror på, at ansvar handler om at forvalte sin egen frihed - uden at lade det gå ud over andres ret til denne frihed og ikke mindst ansvar for fællesskabet og de svage."
+    },{
+        "Name": "Pia Olsen Dyhr",
+        "Party": "Socialistisk Folkeparti",
+        "Description": "Striden i Danmarks Kommunistiske Parti om, hvor selvstændigt man skulle forholde sig til Sovjetunionen, førte til en splittelse og dermed grundlaget for Socialistisk Folkeparti, der ønskede at \"indføre socialismen med demokratiske midler\"."
+    },{
+        "Name": "Alex Vanopslagh",
+        "Party": "Liberal Alliance",
+        "Description": "Da partiet blev stiftet i 2007 af Naser Khader, Anders Samuelsen og Gitte Seeberg, var det under navnet Ny Alliance. I 2008 skiftede det til Liberal Alliance og fik et nyt principprogram med et mere liberalt udgangspunkt og mærkesager som vækst, mindre statsindblanding, mere personlig frihed, lavere skat samt mere for pengene i den offentlige sektor."
+    },{
+        "Name": "Franciska Rosenkilde",
+        "Party": "Alternativet",
+        "Description": "Alternativet blev stiftet af Uffe Elbæk, tidligere kulturminister og folketingsmedlem fra Radikale Venstre. Hans ønske var at ændre den politiske kultur i Danmark. Alternativet er bygget op om seks kerneværdier, der både bruges som rettesnor for dets arbejdsprocesser og for politiske udspil."
+    },{
+        "Name": "Pernille Vermund",
+        "Party": "Nye Borgerlige",
+        "Description": "Nye Borgerlige blev stiftet af tidligere konservativt byrådsmedlem i Helsingør Pernille Vermund (NB) og Peter Seier Christensen (NB) som et nyt konservativt parti. De blev opstillingsberettigede i 2016 og var for første gang med til valg under kommunalvalget i 2017. Her fik partiet valgt et byrådsmedlem ind i Helsingør Byråd."
+    },{
+        "Name": "Isabella Arendt",
+        "Party": "Kristen Demokraterne",
+        "Description": "Kristendemokraterne (dengang Kristeligt Folkeparti) blev stiftet i 1970 med fokus på kampen mod fri abort og frigivelsen af pornografi. Ved jordskredsvalget i 1973 kom det ind i Folketinget med syv mandater. Partiet var repræsenteret indtil 1994, kom ind igen i 1998, men røg atter ud af Folketinget ved valget i 2005. Det tidligere konservative folketingsmedlem Per Ørum Jørgensen, repræsenterede kortvarigt Kristendemokraterne i Folketinget fra 2010 til 2011, men det har siden uden held kæmpet for at komme over spærregrænsen."
+    }
+]
